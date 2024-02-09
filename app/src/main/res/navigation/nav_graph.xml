@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cars3Fragment">
+
+    <fragment
+        android:id="@+id/cars3Fragment"
+        android:name="com.example.mvvmhomework2.ui.fragment.Cars3Fragment"
+        android:label="fragment_cars3"
+        tools:layout="@layout/fragment_cars3" >
+        <action
+            android:id="@+id/action_cars3Fragment_to_addElementFragment"
+            app:destination="@id/addElementFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addElementFragment"
+        android:name="com.example.mvvmhomework2.ui.fragment.AddElementFragment"
+        android:label="fragment_add_element"
+        tools:layout="@layout/fragment_add_element" />
+</navigation>
