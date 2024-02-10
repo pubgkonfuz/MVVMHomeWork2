@@ -12,7 +12,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.mvvmhomework2.R
 import com.example.mvvmhomework2.databinding.FragmentCars3Binding
 import com.example.mvvmhomework2.ui.adapter.CarAdapter
-import com.example.mvvmhomework2.ui.model.Car3ViewModel
+import com.example.mvvmhomework2.ui.models.Car3ViewModel
 
 class Cars3Fragment : Fragment() {
 
@@ -31,8 +31,10 @@ class Cars3Fragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        viewModel.getCars()
         initialize()
         toGoSecondFragment()
+
     }
 
     private fun initialize() = with(binding) {

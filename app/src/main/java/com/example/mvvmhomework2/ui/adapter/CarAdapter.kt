@@ -3,7 +3,7 @@ package com.example.mvvmhomework2.ui.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mvvmhomework2.data.models.Car
+import com.example.mvvmhomework2.data.model.Car
 import com.example.mvvmhomework2.databinding.ItemCar3Binding
 
 class CarAdapter : RecyclerView.Adapter<CarAdapter.CarViewHolder>() {
@@ -34,6 +34,5 @@ class CarAdapter : RecyclerView.Adapter<CarAdapter.CarViewHolder>() {
     }
 
     override fun getItemCount(): Int = carList.size
-
 
 }

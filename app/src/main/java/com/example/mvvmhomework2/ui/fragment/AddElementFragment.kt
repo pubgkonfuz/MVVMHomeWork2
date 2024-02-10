@@ -10,9 +10,9 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.example.mvvmhomework2.R
-import com.example.mvvmhomework2.data.models.Car
+import com.example.mvvmhomework2.data.model.Car
 import com.example.mvvmhomework2.databinding.FragmentAddElementBinding
-import com.example.mvvmhomework2.ui.model.Car3ViewModel
+import com.example.mvvmhomework2.ui.models.Car3ViewModel
 
 class AddElementFragment : Fragment() {
 
